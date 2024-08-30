@@ -7,6 +7,7 @@
 
 💡 [What does the application do?](#what-does-the-application-do)<br/>
 🚀 [Application usage with examples](#application-usage-with-examples)<br/>
+📹 [Video introduction](#video-introduction)<br/>
 🥷 [Contributor](#contributor)
 </br>
 
@@ -61,6 +62,10 @@ The application displays tasks for the current quarter:
 ### Calendar Display and Hovercard
 
 Tasks are highlighted in the table based on their start and end dates. Hovering over a highlighted cell displays a hovercard with task details.
+
+## Video introduction 
+
+https://github.com/user-attachments/assets/ca5d3973-e290-46a5-af97-da0cfbc7b780
 
 ## Contributor
 
