@@ -4,7 +4,7 @@ import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
 import Grid2 from "@mui/material/Grid2";
 
-import { Task, AddTaskFormProps } from "../utils/interfaces";
+import { AddTaskFormProps } from "../utils/interfaces";
 
 const AddTaskForm: React.FC<AddTaskFormProps> = ({ addTask }) => {
   const [name, setName] = useState("");

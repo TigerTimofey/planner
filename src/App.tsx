@@ -1,16 +1,11 @@
 import React, { useState } from "react";
-import TaskTable from "./components/TaskTable";
+import TaskTable from "./components/taskTable/TaskTable";
 import AddTaskForm from "./components/AddTaskForm";
 import { getCurrentQuarter, getWeeksInQuarter } from "./utils/dateUtils";
 
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
-
-interface Task {
-  name: string;
-  startDate: string;
-  endDate: string;
-}
+import { Task } from "./utils/interfaces";
 
 const App: React.FC = () => {
   const today = new Date();
