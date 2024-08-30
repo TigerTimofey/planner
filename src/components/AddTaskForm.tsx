@@ -1,5 +1,8 @@
 import React, { useState } from "react";
-import { TextField, Button, Box, Grid2 } from "@mui/material";
+import TextField from "@mui/material/TextField";
+import Button from "@mui/material/Button";
+import Box from "@mui/material/Box";
+import Grid2 from "@mui/material/Grid2";
 
 interface Task {
   name: string;
