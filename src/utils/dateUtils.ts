@@ -9,10 +9,7 @@ import {
   isSameMonth,
 } from "date-fns";
 
-interface Week {
-  weekNumber: number;
-  month: string;
-}
+import { Week } from "../utils/interfaces";
 
 export function getCurrentQuarter(date: Date): number {
   const month = date.getMonth() + 1;

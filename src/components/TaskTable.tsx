@@ -7,24 +7,7 @@ import TextField from "@mui/material/TextField";
 import ChangeCircleIcon from "@mui/icons-material/ChangeCircle";
 import DoneIcon from "@mui/icons-material/Done";
 import { format, isWithinInterval, startOfWeek, endOfWeek } from "date-fns";
-
-interface Task {
-  name: string;
-  startDate: string;
-  endDate: string;
-}
-
-interface Week {
-  weekNumber: number;
-  month: string;
-}
-
-interface TaskTableProps {
-  tasks: Task[];
-  weeks: Week[];
-  year: number;
-  onUpdateTask: (index: number, updatedTask: Task) => void;
-}
+import { Task, Week, TaskTableProps } from "../utils/interfaces";
 
 const TaskTable: React.FC<TaskTableProps> = ({
   tasks,
