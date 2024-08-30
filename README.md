@@ -1,46 +1,67 @@
-# Getting Started with Create React App
+# Task Planner Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/React-v18.2.0-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-v4.8.4-blue)
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+💡 [What does the application do?](#what-does-the-application-do)<br/>
+🚀 [Application usage with examples](#application-usage-with-examples)<br/>
+🥷 [Contributor](#contributor)
+</br>
 
-### `npm start`
+## What does the application do?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The Task Planner Web Application is a React and TypeScript-based tool designed to display and manage tasks in a quarterly calendar view. It allows users to:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. **View Tasks**: Display tasks in a table format with weeks grouped by month.
+2. **Add Tasks**: Add new tasks with start and end dates.
+3. **Edit Tasks**: Modify existing tasks.
+4. **Navigate Quarters**: Move between different quarters of the year.
+5. **Visualize Tasks**: Highlight tasks on the calendar and view detailed information on hover.
 
-### `npm test`
+## Application usage with examples
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To use the application:
 
-### `npm run build`
+1. **Start the Application**: Run `npm start` to launch the application in your browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Navigate Quarters**:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   - Use the "Previous Quarter" and "Next Quarter" buttons to move between quarters.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Add and Edit Tasks**:
 
-### `npm run eject`
+   - Fill in the "Add Task" form to add a new task.
+   - Edit tasks by updating the details and clicking "Save".
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+4. **View Tasks**:
+   - Tasks will be displayed in a table with weeks and months.
+   - Hover over any cell to view task details.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Task Addition and Editing Example
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To add a task:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Enter the task name, start date, and end date in the form.
+2. Click "Add Task" to save it.
 
-## Learn More
+To edit a task:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Click on the task row to open the task details.
+2. Update the task details and click "Save".
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Navigating Quarters
+
+The application displays tasks for the current quarter:
+
+- Click "Previous Quarter" to view the previous quarter.
+- Click "Next Quarter" to view the next quarter.
+
+### Calendar Display and Hovercard
+
+Tasks are highlighted in the table based on their start and end dates. Hovering over a highlighted cell displays a hovercard with task details.
+
+## Contributor
+
+⋅ 🥷 Timofey Babisashvili
